@@ -101,9 +101,8 @@ namespace Gallery.ExternalServices.Tests
                 var sut = new Typicode.TypiCodeClient(config);
 
                 var ex = Assert.ThrowsAsync<ExternalServiceHttpException>(() => sut.GetAlbumsByUserId(1));
-                Assert.That(ex.Message, Is.EqualTo("Not Found"));
+                ex.Message.Should().Be("Not Found");
             }
-
         }
 
         [Test]
@@ -136,7 +135,7 @@ namespace Gallery.ExternalServices.Tests
                 var sut = new Typicode.TypiCodeClient(config);
 
                 var ex = Assert.ThrowsAsync<ExternalServiceHttpException>(() => sut.GetAlbumsByUserId(1));
-                Assert.That(ex.Message, Is.EqualTo("The operation has timed out."));
+                ex.Message.Contains("timed");
             }
 
         }

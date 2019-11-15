@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Gallery.ExternalServices\Gallery.ExternalServices.csproj" />
-    <ProjectReference Include="..\..\Gallery.Models\Gallery.Models.csproj" />
+    <ProjectReference Include="..\..\src\Gallery.ExternalServices\Gallery.ExternalServices.csproj" />
+    <ProjectReference Include="..\..\src\Gallery.Models\Gallery.Models.csproj" />
   </ItemGroup>
 
 </Project>

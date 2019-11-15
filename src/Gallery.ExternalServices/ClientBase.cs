@@ -31,9 +31,9 @@ namespace Gallery.ExternalServices
 
             if (!restResponse.IsSuccessful)
             {
-                if (restResponse.StatusCode == 0 && restResponse.ErrorMessage != null)
+                if (restResponse.StatusCode == 0 && restResponse.ErrorException != null)
                 {
-                    throw new ExternalServiceHttpException(0, restResponse.ErrorMessage);
+                    throw new ExternalServiceHttpException(0, restResponse.ErrorException.Message);
                 }
 
                 throw new ExternalServiceHttpException((int)restResponse.StatusCode, restResponse.StatusDescription);

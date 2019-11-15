@@ -133,7 +133,7 @@ namespace Gallery.Services.Tests
             var sut = new GalleryService(typicodeClientFactoryMock.Object);
 
             var ex = Assert.ThrowsAsync<ExternalServiceHttpException>(() => sut.GetAlbumsByUser(1));
-            Assert.That(ex.Message, Is.EqualTo("Server error"));
+            ex.Message.Should().Be("Server error");
         }
 
         [Test]
@@ -150,7 +150,7 @@ namespace Gallery.Services.Tests
             var sut = new GalleryService(typicodeClientFactoryMock.Object);
 
             var ex = Assert.ThrowsAsync<ExternalServiceHttpException>(() => sut.GetAlbumsByUser(2));
-            Assert.That(ex.Message, Is.EqualTo("not found"));
+            ex.Message.Should().Be("not found");
         }
     }
 }

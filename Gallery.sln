@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.API", "Gallery.API\Gallery.API.csproj", "{829B81AC-BF40-48A4-B5C6-47B091B388CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.API", "src\Gallery.API\Gallery.API.csproj", "{829B81AC-BF40-48A4-B5C6-47B091B388CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{378C9948-0790-44F5-918F-4B677B5AAFF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.Services", "Gallery.Services\Gallery.Services.csproj", "{EA1D77EF-4897-4F36-9B75-468E8B878E29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.Services", "src\Gallery.Services\Gallery.Services.csproj", "{EA1D77EF-4897-4F36-9B75-468E8B878E29}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.ExternalServices", "Gallery.ExternalServices\Gallery.ExternalServices.csproj", "{48AF3D6B-758F-4704-85A6-D189C82B784F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.ExternalServices", "src\Gallery.ExternalServices\Gallery.ExternalServices.csproj", "{48AF3D6B-758F-4704-85A6-D189C82B784F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.Models", "Gallery.Models\Gallery.Models.csproj", "{BFB8F9A6-E4F0-410F-AF8D-0C95D8FE62C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gallery.Models", "src\Gallery.Models\Gallery.Models.csproj", "{BFB8F9A6-E4F0-410F-AF8D-0C95D8FE62C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47849E62-C934-4021-B21B-F6B1DCCAC77E}"
 EndProject

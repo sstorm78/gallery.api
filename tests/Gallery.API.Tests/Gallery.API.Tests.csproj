@@ -15,10 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Gallery.API\Gallery.API.csproj" />
-    <ProjectReference Include="..\..\Gallery.ExternalServices\Gallery.ExternalServices.csproj" />
-    <ProjectReference Include="..\..\Gallery.Models\Gallery.Models.csproj" />
-    <ProjectReference Include="..\..\Gallery.Services\Gallery.Services.csproj" />
+    <ProjectReference Include="..\..\src\Gallery.API\Gallery.API.csproj" />
+    <ProjectReference Include="..\..\src\Gallery.ExternalServices\Gallery.ExternalServices.csproj" />
+    <ProjectReference Include="..\..\src\Gallery.Models\Gallery.Models.csproj" />
+    <ProjectReference Include="..\..\src\Gallery.Services\Gallery.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>
